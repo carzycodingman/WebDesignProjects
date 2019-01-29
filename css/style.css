@@ -1,0 +1,37 @@
+
+#main{
+	min-width: 300px;
+	margin: 30px 0px 30px 0px;
+	padding: 15px;
+	grid-template-areas: 
+					"header header"
+					"content content"
+					"footer footer";
+	background-color: yellow;
+	display: grid;
+	border-radius: 5px;
+}
+#main > h1{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+#title{
+	background-color: red; 
+	grid-area:header;
+
+}
+#img-div{
+	margin: 0;
+	background-color: black; 
+	grid-area: content;
+}
+#tribute-info{
+	margin: 0;
+	background-color: cyan;
+	grid-area: footer;
+}
+#image{
+	width: 100%;
+
+}
